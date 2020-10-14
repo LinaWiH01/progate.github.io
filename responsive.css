@@ -1,0 +1,72 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .profile {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .profile {
+    width: 100%;
+  } 
+
+  footer img {
+    margin-left : 35%;
+  }
+  
+  .footer-br {
+    text-align: center;
+  }
+  
+  .btn {
+    position : inline-block;
+    margin-left : 22%;
+    font-size : 17px;
+    padding : 1 px;
+    text-align : center;
+
+  }
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  header {
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  
+  .header-right {
+    display: none;
+  }
+  
+ 
+
+  .offering-msg {
+    margin : 0 auto;
+    font-size: 65%;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}
