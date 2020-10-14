@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin-right:0;
+  margin: 0 auto;
+  clear:both;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-color: rgba(0, 152, 179, 0.3);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-family: "Lucida Grande";
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 140px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  font-family: "Arial Black";
+  float: right;
+  margin-right: -30px;
+  margin-top: 40px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 50px;
+  display: none;
+}
+
+.profile-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #4b85db;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  font-size: 25px;
+  padding-bottom: 50px;
+  color: #fdfdfd;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.profile {
+  float: left;
+margin : auto;
+padding : 10px 10px 10px 10px;
+}
+
+.profile-icon {
+    position: static;
+
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #fdfdfd;
+  font-family: "Arial Black";
+}
+
+.animation-text{
+    font-size: 220%;
+  color: white;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.offering-msg {
+  font-family:Cambria;
+  color:rgb(7, 114, 87);
+  text-align:center;
+  padding: 20px;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  font-size: 35px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.btn{
+    position : inline-block;
+    text-align:center;
+    margin-left:38%;
+    font-family: Trebuchet MS;
+}
+footer img {
+  width: 100px;
+  margin-left: 35px;
+}
+
+.footer-br {
+  color: #b3aeb5;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer {
+    margin-left : 10px;
+    margin-bottom:10px;
+}
